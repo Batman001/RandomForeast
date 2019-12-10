@@ -19,7 +19,7 @@ if __name__ == "__main__":
     mpl.rcParams['axes.unicode_minus'] = False
 
     # path = '..\\8.Regression\\iris.data'  # 数据文件路径
-    path = '/Users/sunchao/Desktop/personal/study_files/小象-机器学习4-why/代码_ppt/data/iris.data'
+    path = './data/iris.data'
     data = pd.read_csv(path, header=None)
     x_prime = data[range(4)]
     y = pd.Categorical(data[4]).codes
